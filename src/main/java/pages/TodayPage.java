@@ -18,6 +18,7 @@ public class TodayPage extends BasePage {
 
 
 
+
     private String categoryXpathTemplate = "(//i[contains(@class,'a-icon-radio')])[%d]";
 
     private final String productXpathTemplate = "(//a[contains(@class, 'a-link-normal') and .//img])[%d]";

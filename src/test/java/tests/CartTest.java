@@ -93,6 +93,7 @@ public class CartTest extends BaseTest {
 
 
 
+
     private double parseCurrency(String priceText) {
         return Double.parseDouble(priceText.replaceAll("[^0-9.]", ""));
     }

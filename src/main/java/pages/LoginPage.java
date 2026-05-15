@@ -16,6 +16,7 @@ public class LoginPage extends BasePage {
     By msgError = By.cssSelector("#intent-confirmation-container h1");
 
 
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }

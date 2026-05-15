@@ -16,6 +16,7 @@ public class ProductTestData {
         }
 
 
+
         public int getCategoryIndex() { return categoryIndex; }
         public int getVariationIndex() { return variationIndex; }
         public int getProductIndex() { return productIndex; }

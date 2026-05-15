@@ -2,11 +2,11 @@ package util;
 
 import io.qameta.allure.Allure;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
+
 import java.nio.file.Path;
 
 import static java.nio.file.Files.newInputStream;
+
 
 public class AllureUtils {
 

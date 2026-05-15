@@ -68,6 +68,7 @@ public class BaseTest {
         }
     }
 
+
     private boolean isCorrectPage(String currentUrl) {
         return currentUrl != null
                 && currentUrl.contains("amazon.eg")

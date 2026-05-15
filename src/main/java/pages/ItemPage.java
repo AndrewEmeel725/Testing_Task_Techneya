@@ -79,6 +79,7 @@ public class ItemPage extends BasePage {
         return priceWhole1 + "." + priceFraction1;
     }
 
+
     @Step("Select Variation with dynamic loctor ")
     public void selectVariationByIndex(int index) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -92,6 +92,7 @@ public class HomePage extends BasePage {
         Assert.assertTrue(isDisplayed, "Login form not visible after clicking Lists.");
 
     }
+
     @Step("back to home page")
     public void backToHomePage()    {
         driver.navigate().back();

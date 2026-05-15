@@ -36,6 +36,7 @@ public class CartPage extends BasePage {
         return driver.findElement(price).getText();
     }
 
+
     @Step("Get the subtotal price in the cart")
     public String getSubtotal() {
         WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));

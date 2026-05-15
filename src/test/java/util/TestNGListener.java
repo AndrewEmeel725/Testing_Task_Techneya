@@ -19,6 +19,7 @@ public class TestNGListener implements ITestListener {
         System.out.println("Test Passed: " + result.getMethod().getMethodName());
     }
 
+
     @Override
     public void onTestFailure(ITestResult result) {
 

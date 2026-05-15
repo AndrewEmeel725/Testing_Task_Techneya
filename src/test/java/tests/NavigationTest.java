@@ -10,6 +10,7 @@ import pages.HomePage;
 @Feature("Navigation & Access Control")
 public class NavigationTest extends BaseTest {
 
+
     @Test(description = "Verify that restricted account pages redirect to login")
     @Severity(SeverityLevel.NORMAL)
     @Story("Restricted Page Redirection")

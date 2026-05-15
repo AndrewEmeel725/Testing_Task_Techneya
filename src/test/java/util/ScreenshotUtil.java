@@ -11,6 +11,7 @@ import java.io.File;
 public class ScreenshotUtil {
 
 
+
     public static void takeScreenshot(String screenName, WebDriver driver) {
         try {
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

@@ -13,6 +13,7 @@ A professional-grade automated testing suite built with **Java** and **Selenium 
 
 ---
 
+
 ## Framework Architecture
 
 This project is designed with a focus on modularity and reusability through the following implementation standards:

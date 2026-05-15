@@ -24,6 +24,7 @@ public class LoginTest extends BaseTest {
         login.assertErrorMessageIsDisplayed(login.isErrorDisplayed());
       }
 
+
     @Test(description = "Verify screenshot capture on failed login attempt")
     @Severity(SeverityLevel.NORMAL)
     @Story("Negative Login Tests")
